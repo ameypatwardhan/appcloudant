@@ -24,7 +24,9 @@ public class classconnect {
 	public List getDbEntries()
 	{
 		List<String> list = new ArrayList<>();
+		
 		return db.getAllDbs();
+		
 	}
 
 }
